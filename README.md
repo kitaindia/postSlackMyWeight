@@ -13,15 +13,15 @@ FitbitのAPIを使用してAWS lambdaを使ってSlackに通知を送れます�
 
 ## ENV
 
-CLIENT_ID・・・FitbitのClient ID
-CLIENT_SECRET・・・FitbitのClient Sectet
-SLACK_URL・・・POST先のSlackのURL
+CLIENT_ID・・・FitbitのClient ID  
+CLIENT_SECRET・・・FitbitのClient Sectet  
+SLACK_URL・・・POST先のSlackのURL  
 
 ## DynamoDB
 
 以下のテーブルと項目を使います。Fitbitの設定画面に書いてあるそれぞれの項目でレコードを作成してください。
 
-テーブル名・・・fitbit_table
+テーブル名・・・fitbit_table  
 プライマリキー・・・client_id(String)
 
 項目
